@@ -7,6 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "nativeapp",
     "userInterfaceStyle": "automatic",
+    "web" :{
+      "bundler":"metro"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
