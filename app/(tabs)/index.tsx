@@ -30,6 +30,20 @@ export default function App() {
           </Text>
         </Pressable>
       </Link>
+      <Link href="/subscriptions/spotify" asChild>
+        <Pressable className="mt-4 rounded bg-black p-4 active:opacity-80">
+          <Text className="text-white font-semibold">
+            go to spotify
+          </Text>
+        </Pressable>
+      </Link>
+      <Link href="/subscriptions/claude" asChild>
+        <Pressable className="mt-4 rounded bg-black p-4 active:opacity-80">
+          <Text className="text-white font-semibold">
+            go to claude
+          </Text>
+        </Pressable>
+      </Link>
     </View>
     </SafeAreaView>
   );
